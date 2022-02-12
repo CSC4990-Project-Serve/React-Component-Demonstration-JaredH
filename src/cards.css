@@ -1,0 +1,19 @@
+/*
+* {
+    outline: 1px solid red !important;
+}
+*/
+
+@media (prefers-color-scheme: dark) {
+    .imageContainer {
+        background: black;
+    }
+
+    img {
+        margin: 0.25rem;
+        padding: 0.5rem;
+        width: 8rem;
+        /*outline: 1px solid black;*/
+        filter: invert();
+    }
+}
