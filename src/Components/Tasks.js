@@ -8,7 +8,7 @@ const Tasks = ({taskList, onDelete, toggleReminder}) => {
                 <IndividualTask key={task.id}
                                 currentTask={task}
                                 onDelete={onDelete}
-                                onToggleReminder={toggleReminder}/>
+                                toggleReminder={toggleReminder}/>
             ))}
         </>
     )

@@ -127,4 +127,8 @@ footer {
     h6 {
         color: ghostwhite;
     }
+
+    .form-control label {
+        color: ghostwhite;
+    }
 }
